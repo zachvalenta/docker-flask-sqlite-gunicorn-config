@@ -1,5 +1,5 @@
 .PHONY: test
-name = "docker-flask-sqlite-config"
+name = "base-conf-sqlite-guni"
 
 help:
 	@echo
