@@ -7,6 +7,9 @@ flask==1.1.2 \
 flask-sqlalchemy==2.4.3 \
     --hash=sha256:0b656fbf87c5f24109d859bafa791d29751fabbda2302b606881ae5485b557a5 \
     --hash=sha256:fcfe6df52cd2ed8a63008ca36b86a51fa7a4b70cef1c39e5625f722fca32308e
+gunicorn==20.0.4 \
+    --hash=sha256:cd4a810dd51bf497552cf3f863b575dabd73d6ad6a91075b65936b151cbf4f9c \
+    --hash=sha256:1904bb2b8a43658807108d59c3f3d56c2b6121a701161de0ddf9ad140073c626
 itsdangerous==1.1.0 \
     --hash=sha256:b12271b2047cb23eeb98c8b5622e2e5c5e9abd9784a153e9d8ef9cb4dd09d749 \
     --hash=sha256:321b033d07f2a4136d3ec762eac9f16a10ccd60f53c0c91af90217ace7ba1f19
