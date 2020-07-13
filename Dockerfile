@@ -7,4 +7,4 @@ WORKDIR /$project_name
 COPY requirements.txt /$project_name/
 RUN python -m pip install -r requirements.txt
 COPY . /$project_name
-CMD flask run --host 0.0.0.0
+CMD gunicorn -b 0.0.0.0:5000 app:app

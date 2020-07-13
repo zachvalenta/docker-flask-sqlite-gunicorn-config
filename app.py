@@ -2,12 +2,14 @@ import os
 
 from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
+from dotenv import load_dotenv, find_dotenv
 
 """
 CONFIG
 """
 
 # db - construct path to SQLite file
+load_dotenv(find_dotenv())
 basedir = os.path.abspath(os.path.dirname(__file__))
 db_path = os.path.join(basedir, os.getenv("SQLITE_FILE"))
 db_uri = "sqlite:///" + db_path
